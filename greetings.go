@@ -44,3 +44,8 @@ func Hellos(names []string) (map[string]string, error) {
 
 	return messages, nil
 }
+
+func FuncOfTest() (string, error) {
+	message := fmt.Sprintf(randomFormat(), "Andrew")
+	return message, nil
+}
